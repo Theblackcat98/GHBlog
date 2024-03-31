@@ -6,6 +6,7 @@ import {
   NavbarItem,
   Link,
   Button,
+  Switch,
 } from "@nextui-org/react";
 import { SITE_TITLE } from "../consts";
 
@@ -39,9 +40,7 @@ export default function App() {
           <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
+          <Switch>Toggle Dark Mode</Switch>
         </NavbarItem>
       </NavbarContent>
     </Navbar>
