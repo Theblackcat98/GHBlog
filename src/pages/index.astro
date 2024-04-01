@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/NavBar.jsx';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import DarkSwitch from '../components/DarkSwitch.jsx'
 ---
 
 
@@ -12,7 +13,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
     <body>
-      <Header />
+      <Header client:load />
       <main>
         <h1>🖤 Welcome to The Black Cat Blog! 🐾</h1>
           <p>

@@ -22,18 +22,8 @@ module.exports = {
             secondary: "#7dc4e4",
             accent: "#b7bdf8",
           },
-          light: {
-            colors: {
-              primary: {
-                DEFAULT: "#BEF264",
-                foreground: "#000000",
-              },
-              focus: "#BEF264",
-            },
-          },
         },
       },
     }),
   ],
 };
-
