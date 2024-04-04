@@ -16,7 +16,7 @@
     0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
 }
 */
-:root {
+:root .light {
   --text: #0a1333;
   --background: #d9dae7;
   --primary: #2f095d;
@@ -24,11 +24,11 @@
   --accent: #070d46;
 }
 .dark {
-  --text-dark: #cad3f5;
-  --background-dark: #181926;
-  --primary-dark: #c6a0f6;
-  --secondary-dark: #7dc4e4;
-  --accent-dark: #b7bdf8;
+  --text: #cad3f5;
+  --background: #181926;
+  --primary: #c6a0f6;
+  --secondary: #7dc4e4;
+  --accent: #b7bdf8;
 }
 @font-face {
   font-family: "Mononoki";
@@ -56,6 +56,16 @@ body {
   color: rgb(var(--gray-dark));
   font-size: 20px;
   line-height: 1.7;
+}
+footer.l {
+  padding: 2em 1em 6em 1em;
+  background: white;
+  text-align: center;
+}
+.d {
+  padding: 2em 1em 6em 1em;
+  background: black;
+  text-align: center;
 }
 main {
   width: 720px;

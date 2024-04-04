@@ -2,7 +2,7 @@
 const today = new Date();
 ---
 
-<footer>
+<footer class="d">
 	&copy; {today.getFullYear()} theblackcat99. All rights reserved.
 	<div class="social-links">
 		<a href="https://m.webtoo.ls/@astro" target="_blank">
@@ -39,13 +39,12 @@ const today = new Date();
 		</a>
 	</div>
 </footer>
+
 <style>
 	footer {
 		padding: 2em 1em 6em 1em;
-		background: linear-gradient(var(--background)) no-repeat;
-		color: black;
-		text-align: center;
-	}
+    text-align: center;
+  }
 	.social-links {
 		display: flex;
 		justify-content: center;
@@ -54,9 +53,9 @@ const today = new Date();
 	}
 	.social-links a {
 		text-decoration: none;
-		color: rgb(var(--gray));
+		color: --accent;
 	}
 	.social-links a:hover {
-		color: rgb(var(--gray-dark));
+		color: --accent;
 	}
 </style>
